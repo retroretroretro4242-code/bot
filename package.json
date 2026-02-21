@@ -1,1 +1,15 @@
-
+{
+  "name": "discord-moderasyon-bot",
+  "version": "1.0.0",
+  "description": "Türkçe Discord moderasyon botu + ticket sistemi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.12.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
