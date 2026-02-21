@@ -3,7 +3,7 @@ const client = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent]
 });
 
-const TOKEN = process.env.MTQ3NDE0MDI2NzE1NzM5MzQzOA.G9PhSZ.sPII1hFBu9lglsS4s-mkEhWHWqNzmZV5MHWscw;
+const TOKEN = process.env.DISCORD_TOKEN;
 
 // Küfür, caps, spam listeleri
 const kufurler = ['sik','amk','oruspu','piç','ananı'];
